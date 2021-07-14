@@ -1,0 +1,15 @@
+digraph test_tree {
+h -> d [label = "left"];
+h -> j [label = "right"];
+d -> b [label = "left"];
+d -> f [label = "right"];
+b -> a [label = "left"];
+b -> c [label = "right"];
+f -> e [label = "left"];
+f -> g [label = "right"];
+j -> i [label = "left"];
+j -> l [label = "right"];
+l -> k [label = "left"];
+l -> m [label = "right"];
+m -> n [label = "right"];
+}

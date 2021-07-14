@@ -1,0 +1,8 @@
+digraph test_tree {
+c -> a [label = "left"];
+c -> d [label = "right"];
+a -> b [label = "right"];
+d -> x [label = "right"];
+x -> k [label = "left"];
+k -> l [label = "right"];
+}

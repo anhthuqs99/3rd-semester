@@ -1,0 +1,47 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.2 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          DC Analysis of ex_7_1                           ***
+***                          12/23/2019 11:34:16 PM                          ***
+********************************************************************************
+Limits
+======
+Variable 1 Method        Linear
+Variable 1 Name          V2
+Variable 1 Range         0.5,-5,0.1
+Variable 2 Method        List
+Variable 2 Name          V1
+Variable 2 Range         2,5,10
+Temperature              Linear 27
+Number of Points         51
+Maximum Change %         5
+Run Options              Normal
+Auto Scale Ranges        On
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V1=2                      ***
+*****************************************************
+
+Temperature=27 V1=2
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V1=5                      ***
+*****************************************************
+
+Temperature=27 V1=5
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V1=10                     ***
+*****************************************************
+
+Temperature=27 V1=10
+

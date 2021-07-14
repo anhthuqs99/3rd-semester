@@ -1,0 +1,13 @@
+*.o
+*.exe
+
+*.includes
+*.files
+*.creator
+*.config
+*.autosave
+*.creator.user
+
+.idea/
+cmake-build-debug/
+CMakeLists.txt

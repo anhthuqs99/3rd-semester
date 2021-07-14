@@ -1,0 +1,136 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.2 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                        Transient Analysis of ex6                         ***
+***                          12/23/2019 9:48:47 PM                           ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           10m
+Output Start Time (tstart) 0
+Maximum Time Step          1u
+Number of Points           5100
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1           -85.281   2            -6.900   3          -147.187  
+4            -3.916   5            -5.942K 
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors PNP
+====================================================================
+Instance:                Q1             Q2
+Using model:        KT3107B        KT3107B
+
+Beta Terms:
+BETADC              25.163         49.769 
+BETAAC              13.101         26.357 
+
+Capacitance Terms:
+CPI                 62.037n        57.374n
+CMU                  2.465p         2.042p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
+
+Conductance Terms:
+GM                 117.875        118.620 
+
+Current Terms:
+IB                 232.735m       116.426m
+IC                   5.856          5.794 
+
+Resistance Terms:
+RPI                111.145m       222.193m
+RX                  25.500         25.500 
+RO                  24.991         35.960 
+
+Voltage Terms:
+VBE                 -6.900         -3.916 
+VBC                 78.382        143.271 
+VCE                -85.281       -147.187 
+
+Frequency Terms:
+FT               302.395MEG     329.037MEG
+
+Power DC Terms:
+PD                 501.046        853.328 
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ib                -232.735m      -116.426m
+Ic                  -5.856         -5.794 
+Ie                   6.089          5.911 
+Is                   0.000          0.000 
+
+Condition:
+State                   HOT            HOT
+
+Device Variables:
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R2             R3             R4
+V                     5.794K         5.856K         5.935K         5.938K
+Power DC Terms:
+PD                   33.576K        34.297K         1.381K       691.308 
+
+DC Pin Currents:
+Ir                    5.794          5.856        232.735m       116.426m
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1             C2
+V                   140.288        -81.365 
+Power DC Terms:
+PS                    0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000 
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1
+V                   -5.942K
+Power DC Terms:
+PG                  71.300K
+
+DC Pin Currents:
+ISource             12.000 
+
+

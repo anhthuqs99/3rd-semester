@@ -1,0 +1,18 @@
+.model KD203V   D(Is=268.8f Rs=14.95m N=1 Xti=3 Eg=1.11 Bv=799.9 Ibv=7.607u
++                 Cjo=21.2p Vj=.73 M=.28 Fc=.5 Tt=9.09e-7)
+
+Model D814A   D(Is=.3920p N=1.19 Rs=1.25 Cjo=41.15p Tt=49.11n
++                M=0.41 Vj=0.73 Fc=0.5 Bv=8 IBv=0.5u Eg=1.11 Xti=3)
+
+.model q2T201g  NPN(Is=72.96f Xti=3 Eg=1.11 Vaf=79.03 Bf=213.5 Ne=2.219
++  Ise=365p Ikf=.1321 Xtb=1.5 Br=.23 Nc=2 Isc=3.16p Ikr=.155 Rc=12
++  Rb=120 Cjc=17.75p Mjc=.33 Vjc=.75 Fc=.5 Cje=39.43p Mje=.33 Vje=.75
++  Tr=290n Tf=2.105n Itf=60m Vtf=20 Xtf=2)
+
+.MODEL KT3107B                PNP(IS=10E-15 VAF=70 VAR=8V BF=220 IKF=.1A NC=4 NE=4
++                            ISE=50NA ISC=50NA RB=5 RE=.5 CJC=10PF CJE=14PF
++                            TR=100NS TF=.6NS )
+.model q2TS622a PNP(Is=2.304f Xti=3 Eg=1.11 Vaf=78 Bf=91.15 Ne=1.406 
++  Ise=53.59f Ikf=2.65 Xtb=1.5 Br=.7955 Nc=2 Isc=53.5f Ikr=1.3 Rc=1.2
++  Rb=18.8 Cjc=39.2p Mjc=.4446 Vjc=.75 Fc=.5 Cje=23.31p Mje=.201 Vje=.75
++  Tr=150.8n Tf=313.9p Itf=2.5 Vtf=40 Xtf=1.5)
